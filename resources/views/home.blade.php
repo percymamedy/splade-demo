@@ -1,13 +1,20 @@
 <x-layout>
-    <x-slot name="header">
-        {{ __('Home') }}
-    </x-slot>
+  <x-slot name="header">
+    {{ __('Home') }}
+  </x-slot>
 
-    <x-panel class="flex flex-col items-center pt-16 pb-16">
-        <x-application-logo class="block h-12 w-auto" />
+  <x-panel class="flex flex-col items-center pt-16 pb-16">
+    <x-application-logo class="block h-12 w-auto"/>
 
-        <div class="mt-8 text-2xl">
-            Welcome to your Splade application!
-        </div>
-    </x-panel>
+    <div class="mt-8 text-2xl">
+      Welcome to your Splade application!
+
+{{--      <Link--}}
+{{--        class="mt-8 block underline"--}}
+{{--        href="/docs"--}}
+{{--      >--}}
+{{--        Docs--}}
+{{--      </Link>--}}
+    </div>
+  </x-panel>
 </x-layout>
