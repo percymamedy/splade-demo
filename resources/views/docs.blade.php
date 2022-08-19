@@ -46,7 +46,9 @@
 {{--  <x-panel class="divide-y divide-gray-200">--}}
 {{--    @foreach(\App\Models\User::all() as $user)--}}
 {{--      <x-splade-data :default="$user">--}}
-{{--        <p v-text="data.name" />--}}
+{{--        <Link class="block" href="{{ route('user.show', $user) }}">--}}
+{{--          {{ $user->name }}--}}
+{{--        </Link>--}}
 {{--      </x-splade-data>--}}
 {{--    @endforeach--}}
 {{--  </x-panel>--}}
